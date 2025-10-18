@@ -50,51 +50,50 @@ Usage:
 """
 
 
-
 # Orange Pi 3b physical board pin to GPIO pin
 BOARD = {
-    3:  140,    # SDA.2/GPIO4_B4
-    5:  141,    # SCL.2/GPIO4_B5
-    7:  147,    # PWM15/GPIO4_A4
-    8:  25,     # RXD.2/GPIO0_D1
-    10: 24,     # TXD.2/GPIO0_D0
-    11: 118,    # GPIO3_C6
-    12: 119,    # GPIO3_C7
-    13: 128,    # GPIO4_A0
-    15: 130,    # TXD.7/GPIO4_A2
-    16: 131,    # RXD.7/GPIO4_A3
-    18: 129,    # GPIO4_A1
-    19: 138,    # SPI3_TXD/GPIO4_B2
-    21: 136,    # SPI3_RXD/GPIO4_B0
-    22: 132,    # TXD.9/GPIO4_B1
-    23: 139,    # SPI3_CLK/GPIO4_B3
-    24: 134,    # SPI3_CS1/GPIO4_A6
-    26: 135,    # GPIO4_A7
-    27: 32,     # SDA.3/GPIO4_A0
-    28: 33,     # SCL.3/GPIO1_A1
-    29: 133,    # RXD.9/GPIO4_A5
-    31: 124,    # GPIO3_D4
-    32: 144,    # PWM11/GPIO4_C0
-    33: 127,    # GPIO3_D7
-    35: 120,    # GPIO3_D0
-    36: 125,    # GPIO3_D5
-    37: 123,    # GPIO3_D3
-    38: 122,    # GPIO3_D2
-    40: 121,    # GPIO3_D1
+    3: 140,  # SDA.2/GPIO4_B4
+    5: 141,  # SCL.2/GPIO4_B5
+    7: 147,  # PWM15/GPIO4_A4
+    8: 25,  # RXD.2/GPIO0_D1
+    10: 24,  # TXD.2/GPIO0_D0
+    11: 118,  # GPIO3_C6
+    12: 119,  # GPIO3_C7
+    13: 128,  # GPIO4_A0
+    15: 130,  # TXD.7/GPIO4_A2
+    16: 131,  # RXD.7/GPIO4_A3
+    18: 129,  # GPIO4_A1
+    19: 138,  # SPI3_TXD/GPIO4_B2
+    21: 136,  # SPI3_RXD/GPIO4_B0
+    22: 132,  # TXD.9/GPIO4_B1
+    23: 139,  # SPI3_CLK/GPIO4_B3
+    24: 134,  # SPI3_CS1/GPIO4_A6
+    26: 135,  # GPIO4_A7
+    27: 32,  # SDA.3/GPIO4_A0
+    28: 33,  # SCL.3/GPIO1_A1
+    29: 133,  # RXD.9/GPIO4_A5
+    31: 124,  # GPIO3_D4
+    32: 144,  # PWM11/GPIO4_C0
+    33: 127,  # GPIO3_D7
+    35: 120,  # GPIO3_D0
+    36: 125,  # GPIO3_D5
+    37: 123,  # GPIO3_D3
+    38: 122,  # GPIO3_D2
+    40: 121,  # GPIO3_D1
 }
 
 # Orange Pi 3b physical board pin to WiringPi GPIO pin
 WIRINGPI = {
-    3:  0,   # SDA.2/GPIO4_B4
-    5:  1,   # SCL.2/GPIO4_B5
-    7:  2,   # PWM15/GPIO4_A4
-    8:  3,   # RXD.2/GPIO0_D1
-    10: 4,   # TXD.2/GPIO0_D0
-    11: 5,   # GPIO3_C6
-    12: 6,   # GPIO3_C7
-    13: 7,   # GPIO4_A0
-    15: 8,   # TXD.7/GPIO4_A2
-    16: 9,   # RXD.7/GPIO4_A3
+    3: 0,  # SDA.2/GPIO4_B4
+    5: 1,  # SCL.2/GPIO4_B5
+    7: 2,  # PWM15/GPIO4_A4
+    8: 3,  # RXD.2/GPIO0_D1
+    10: 4,  # TXD.2/GPIO0_D0
+    11: 5,  # GPIO3_C6
+    12: 6,  # GPIO3_C7
+    13: 7,  # GPIO4_A0
+    15: 8,  # TXD.7/GPIO4_A2
+    16: 9,  # RXD.7/GPIO4_A3
     18: 10,  # GPIO4_A1
     19: 11,  # SPI3_TXD/GPIO4_B2
     21: 12,  # SPI3_RXD/GPIO4_B0
