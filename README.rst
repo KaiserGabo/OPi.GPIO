@@ -66,6 +66,6 @@ Installation
 
    sudo apt-get update
    sudo apt-get install python3-dev python3-setuptools git
-   git clone https://github.com/alexgrach/OPI.GPIO
+   git clone https://github.com/KaiserGabo/OPi.GPIO
    cd OPI.GPIO
    sudo python setup.py install
